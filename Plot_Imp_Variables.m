@@ -3,13 +3,13 @@
 % and residue-residue coupling matrices.
 
 %% Choosing a GPCR
-gpcr = 'gpcr2'; % Enter the GPCR for which plots are to be generated
+gpcr = 'gpcr1'; % Enter the GPCR for which plots are to be generated
 state = 'i';    % Enter the required state (i: inactive, a: active)
 
 %% Loading the data
 eval(['load ',gpcr,state,'.mat;']);
 eval(['Cpd=Cpd_',gpcr,state,';']);
-eval(['fes=fes_Tm_',gpcr,state,';']);
+eval(['fes=fes_310_',gpcr,state,';']);
 eval(['fes2D=fes2D_310_',gpcr,state,';']);
 eval(['Fpath=Fpath_310_',gpcr,state,';']);
 eval(['CouplingMat=CouplingMat_310_',gpcr,state,';']);
