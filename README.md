@@ -1,6 +1,6 @@
 # GPCR-Landscapes
 
-The 'mat' files can be directly loaded in MATLAB.
+The 'mat' files can be directly loaded in MATLAB. The PDB files used are available in the zipped file PDBs.zip
 
 The document FilesAndVariables.docx has a brief description of the different file types.
 
